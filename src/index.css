@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root{
+  --color-white: #fff;
+  --color-bg: black;
+  --color-blue: cyan;
+  --color-allfont: grey;
+
+
+}
+@layer base{
+  html{
+    font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #171717;
+    color: #fff;
+  }
+}

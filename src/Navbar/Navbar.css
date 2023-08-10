@@ -1,0 +1,21 @@
+/* Normal Css */
+.box-1:hover{
+  color: red;
+}
+
+
+
+
+
+/* Media Query */
+
+@media screen and (max-width: 640px) {
+  .res-1{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: #171717;
+  }
+}
+
+/* Highlighted corner */
